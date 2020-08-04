@@ -2,6 +2,9 @@
 
 milliLearn/iCE40 is an FPGA dev board focused at ultra low-power machine learning research. As a platform itself, it's not meant to be deployed, but is instead meant for benchtop power and performance metering.
 
+The files in the pcb-ng directory are a smaller version of the board that might be less convenient to work with - it saves space at the expense of having limited header pins and no swappable memory modules.
+
+
 Circuit checklist:
  - [x] 3.3v, 1.8v linear regulators
  - [x] USB port
@@ -35,3 +38,11 @@ Circuit checklist:
 
 Future featues:
  - [ ] Onboard mcu for measuring power in firmware and reporting over UART
+
+
+random notes:
+
+###### Config memory read speed
+
+When using iceprog, the config flash memory is written by the ft232hq at 6MHz.
+The iCE40 starts by reading the config flash at about 12MHz. This is the default read frequency. There are options to put a "speed up the read" near the beginning of the bitstream (refer to Lattice Technical Note 1248: "iCE40 Programming and Configuration")
