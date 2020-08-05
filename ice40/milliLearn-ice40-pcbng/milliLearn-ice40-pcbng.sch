@@ -14069,9 +14069,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="J2" library="milliLearn-ice40" deviceset="10118194-0001LF" device=""/>
+<part name="J2" library="milliLearn-ice40" deviceset="10118194-0001LF" device="">
+<attribute name="MFR" value="10118194-0001LF"/>
+<attribute name="MFR_PN" value="10118194-0001LF"/>
+</part>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="milliLearn-ice40" deviceset="C0402_COMPACT" device=""/>
+<part name="C1" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="1u">
+<attribute name="MFR" value="SAMSUNG"/>
+<attribute name="MFR_PN" value="CL05A105KO5NNNC"/>
+</part>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U1" library="milliLearn-ice40" deviceset="AP7366-W5-7" device=""/>
 <part name="C2" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="1u">
@@ -14148,7 +14154,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFR" value="WURTH ELECTRONIK"/>
 <attribute name="MFR_PN" value="61300211121"/>
 </part>
-<part name="U5" library="gtjennings_pcb_121217_1200_release" deviceset="MICROBUILDER_FT232H" device="Q"/>
+<part name="U5" library="gtjennings_pcb_121217_1200_release" deviceset="MICROBUILDER_FT232H" device="Q">
+<attribute name="MFR" value="FTDI"/>
+<attribute name="MFR_PN" value="FT232HQ"/>
+</part>
 <part name="C4" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
 <attribute name="MFR" value="SAMSUNG"/>
 <attribute name="MFR_PN" value="CL05B104KO5NNNC"/>
@@ -14221,7 +14230,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="milliLearn-ice40" deviceset="DSC6111CI2A-012.0000" device=""/>
+<part name="U2" library="milliLearn-ice40" deviceset="DSC6111CI2A-012.0000" device="">
+<attribute name="MFR" value="MICROCHIP"/>
+<attribute name="MFR_PN" value="DSC6111CI2A-012.0000"/>
+</part>
 <part name="C19" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
 <attribute name="MFR" value="SAMSUNG"/>
 <attribute name="MFR_PN" value="CL05B104KO5NNNC"/>
@@ -14290,7 +14302,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_A_L" device=""/>
-<part name="U7" library="milliLearn-ice40" deviceset="MT25QL128ABA1EW7" device=""/>
+<part name="U7" library="milliLearn-ice40" deviceset="MT25QL128ABA1EW7" device="">
+<attribute name="MFR" value="MICRON"/>
+<attribute name="MFR_PN" value="MT25QL128ABA1EW7-0SIT"/>
+</part>
 <part name="C22" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
 <attribute name="MFR" value="SAMSUNG"/>
 <attribute name="MFR_PN" value="CL05B104KO5NNNC"/>
@@ -14357,7 +14372,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFR_PN" value="CL10A475KA8NQNC"/>
 </part>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U8" library="milliLearn-ice40" deviceset="ICE40UP5K/3K-SG48" device=""/>
+<part name="U8" library="milliLearn-ice40" deviceset="ICE40UP5K/3K-SG48" device="">
+<attribute name="MFR" value="LATTICE"/>
+<attribute name="MFR_PN" value="ICE40UP5K-SG48I"/>
+</part>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="0.5 1%">
 <spice>
@@ -14413,8 +14431,14 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFR" value="WURTH ELECTRONIK"/>
 <attribute name="MFR_PN" value="61300211121"/>
 </part>
-<part name="R25" library="milliLearn-ice40" deviceset="R0402_COMPACT" device="" value="100"/>
-<part name="C32" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n"/>
+<part name="R25" library="milliLearn-ice40" deviceset="R0402_COMPACT" device="" value="100">
+<attribute name="MFR" value="YAGEO"/>
+<attribute name="MFR_PN" value="RC0402FR-07100RL"/>
+</part>
+<part name="C32" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
+<attribute name="MFR" value="SAMSUNG"/>
+<attribute name="MFR_PN" value="CL05B104KO5NNNC"/>
+</part>
 <part name="C33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7u">
 <spice>
 <pinmapping spiceprefix="C">
@@ -14447,7 +14471,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND54" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C38" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n"/>
+<part name="C38" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
+<attribute name="MFR" value="SAMSUNG"/>
+<attribute name="MFR_PN" value="CL05B104KO5NNNC"/>
+</part>
 <part name="GND55" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C39" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
 <attribute name="MFR" value="SAMSUNG"/>
@@ -14501,7 +14528,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFR" value="PANASONIC"/>
 <attribute name="MFR_PN" value="ERJ-2RKF1002X"/>
 </part>
-<part name="J1" library="milliLearn-ice40" deviceset="SFV24R-2STE1HLF" device=""/>
+<part name="J1" library="milliLearn-ice40" deviceset="SFV24R-2STE1HLF" device="">
+<attribute name="MFR" value="AMPHENOL"/>
+<attribute name="MFR_PN" value="SFV24R-2STE1HLF"/>
+</part>
 <part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND63" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R28" library="milliLearn-ice40" deviceset="R0402_COMPACT" device="" value="10k">
@@ -14563,7 +14593,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFR" value="PANASONIC"/>
 <attribute name="MFR_PN" value="ERJ-2RKF3002X"/>
 </part>
-<part name="U11" library="milliLearn-ice40" deviceset="DSC6111CI2A-012.0000" device=""/>
+<part name="U11" library="milliLearn-ice40" deviceset="DSC6111CI2A-012.0000" device="">
+<attribute name="MFR" value="MICROCHIP"/>
+<attribute name="MFR_PN" value="DSC6111CI2A-012.0000"/>
+</part>
 <part name="C49" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
 <attribute name="MFR" value="SAMSUNG"/>
 <attribute name="MFR_PN" value="CL05B104KO5NNNC"/>
@@ -14575,7 +14608,10 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="MFR_PN" value="ERJ-2RKF1002X"/>
 </part>
 <part name="GND73" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="milliLearn-ice40" deviceset="SM04B-SRSS-TB(LF)(SN)" device=""/>
+<part name="J3" library="milliLearn-ice40" deviceset="SM04B-SRSS-TB(LF)(SN)" device="">
+<attribute name="MFR" value="JST"/>
+<attribute name="MFR_PN" value="SM04B-SRSS-TB(LF)(SN)"/>
+</part>
 <part name="GND74" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R34" library="milliLearn-ice40" deviceset="R0402_COMPACT" device="" value="4.7k">
 <attribute name="MFR" value="PANASONIC"/>
@@ -14615,14 +14651,20 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </part>
 <part name="GND88" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND89" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW1" library="milliLearn-ice40" deviceset="TE_FSMJSMA" device=""/>
+<part name="SW1" library="milliLearn-ice40" deviceset="TE_FSMJSMA" device="">
+<attribute name="MFR" value="TE"/>
+<attribute name="MFR_PN" value="FSM4JSMATR"/>
+</part>
 <part name="C54" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
 <attribute name="MFR" value="SAMSUNG"/>
 <attribute name="MFR_PN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND91" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SW2" library="milliLearn-ice40" deviceset="TE_FSMJSMA" device=""/>
+<part name="SW2" library="milliLearn-ice40" deviceset="TE_FSMJSMA" device="">
+<attribute name="MFR" value="TE"/>
+<attribute name="MFR_PN" value="FSM4JSMATR"/>
+</part>
 <part name="GND92" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LED3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2">
 <attribute name="MFR" value="LITE-ON"/>
@@ -14683,10 +14725,22 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="JP28" library="milliLearn-ice40" deviceset="JUMPER-SMT_3_NO" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39284/1"/>
 <part name="JP29" library="milliLearn-ice40" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
 <part name="JP30" library="milliLearn-ice40" deviceset="JUMPER-SMT_3_1-NC_PASTE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39291/1"/>
-<part name="U14" library="milliLearn-ice40" deviceset="CY15B104Q-LHXI" device=""/>
-<part name="U15" library="milliLearn-ice40" deviceset="CY15B104Q-LHXI" device=""/>
-<part name="U16" library="milliLearn-ice40" deviceset="AT25QF641B-SHB-T" device=""/>
-<part name="U17" library="milliLearn-ice40" deviceset="AT25QF641B-SHB-T" device=""/>
+<part name="U14" library="milliLearn-ice40" deviceset="CY15B104Q-LHXI" device="">
+<attribute name="MFR" value="CYPRESS"/>
+<attribute name="MFR_PN" value="CY15B104Q-LHXI"/>
+</part>
+<part name="U15" library="milliLearn-ice40" deviceset="CY15B104Q-LHXI" device="">
+<attribute name="MFR" value="CYPRESS"/>
+<attribute name="MFR_PN" value="CY15B104Q-LHXI"/>
+</part>
+<part name="U16" library="milliLearn-ice40" deviceset="AT25QF641B-SHB-T" device="">
+<attribute name="MFR" value="ADESTO"/>
+<attribute name="MFR_PN" value="AT25QF641B-SHB-T"/>
+</part>
+<part name="U17" library="milliLearn-ice40" deviceset="AT25QF641B-SHB-T" device="">
+<attribute name="MFR" value="ADESTO"/>
+<attribute name="MFR_PN" value="AT25QF641B-SHB-T"/>
+</part>
 <part name="C55" library="milliLearn-ice40" deviceset="C0402_COMPACT" device="" value="100n">
 <attribute name="MFR" value="SAMSUNG"/>
 <attribute name="MFR_PN" value="CL05B104KO5NNNC"/>
@@ -14770,6 +14824,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 <instance part="U8" gate="G$1" x="161.29" y="-67.31" smashed="yes">
 <attribute name="NAME" x="146.05" y="-34.29" size="1.27" layer="95"/>
 <attribute name="VALUE" x="146.05" y="-36.83" size="1.27" layer="96"/>
+<attribute name="MFR_PN" x="161.29" y="-67.31" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="161.29" y="-67.31" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="GND42" gate="1" x="166.37" y="-137.16" smashed="yes">
 <attribute name="VALUE" x="163.83" y="-139.7" size="1.778" layer="96"/>
@@ -14777,10 +14833,14 @@ The LED will turn off whenever the button is pressed lol.</text>
 <instance part="R25" gate="G$1" x="106.68" y="-34.29" smashed="yes" rot="R90">
 <attribute name="VALUE" x="105.664" y="-36.83" size="1.016" layer="96" rot="R90"/>
 <attribute name="NAME" x="108.712" y="-36.83" size="1.016" layer="95" rot="R90"/>
+<attribute name="MFR_PN" x="106.68" y="-34.29" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="106.68" y="-34.29" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C32" gate="G$1" x="102.87" y="-43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="100.711" y="-45.974" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="105.664" y="-45.974" size="1.27" layer="96" rot="R90"/>
+<attribute name="MFR_PN" x="102.87" y="-43.18" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="102.87" y="-43.18" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C33" gate="G$1" x="95.25" y="-43.18" smashed="yes">
 <attribute name="NAME" x="96.266" y="-42.545" size="1.778" layer="95"/>
@@ -14833,6 +14893,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 <instance part="C38" gate="G$1" x="86.36" y="-43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="84.201" y="-45.974" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="89.154" y="-45.974" size="1.27" layer="96" rot="R90"/>
+<attribute name="MFR" x="86.36" y="-43.18" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MFR_PN" x="86.36" y="-43.18" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND55" gate="1" x="86.36" y="-49.53" smashed="yes">
 <attribute name="VALUE" x="83.82" y="-52.07" size="1.778" layer="96"/>
@@ -14900,6 +14962,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 <instance part="U11" gate="G$1" x="217.17" y="-151.13" smashed="yes">
 <attribute name="NAME" x="217.805" y="-150.495" size="1.778" layer="95"/>
 <attribute name="VALUE" x="217.805" y="-171.45" size="1.778" layer="96"/>
+<attribute name="MFR_PN" x="217.17" y="-151.13" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="217.17" y="-151.13" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="C49" gate="G$1" x="207.01" y="-148.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="204.851" y="-151.384" size="1.27" layer="95" rot="R90"/>
@@ -14924,6 +14988,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 </instance>
 <instance part="SW1" gate="G$1" x="256.54" y="-15.24" smashed="yes">
 <attribute name="NAME" x="251.46" y="-8.89" size="1.778" layer="95"/>
+<attribute name="MFR_PN" x="256.54" y="-15.24" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="256.54" y="-15.24" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="C54" gate="G$1" x="243.84" y="-21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="241.681" y="-24.384" size="1.27" layer="95" rot="R90"/>
@@ -14939,6 +15005,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 </instance>
 <instance part="SW2" gate="G$1" x="135.89" y="-176.53" smashed="yes">
 <attribute name="NAME" x="130.81" y="-170.18" size="1.778" layer="95"/>
+<attribute name="MFR_PN" x="135.89" y="-176.53" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="135.89" y="-176.53" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="GND92" gate="1" x="148.59" y="-184.15" smashed="yes">
 <attribute name="VALUE" x="146.05" y="-186.69" size="1.778" layer="96"/>
@@ -15851,6 +15919,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 <instance part="J2" gate="G$1" x="15.24" y="-35.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="22.615040625" y="-24.8851" size="1.271559375" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="22.863940625" y="-48.2639" size="1.270659375" layer="96" rot="MR0"/>
+<attribute name="MFR_PN" x="15.24" y="-35.56" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="15.24" y="-35.56" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND1" gate="1" x="31.75" y="-48.26" smashed="yes">
 <attribute name="VALUE" x="29.21" y="-50.8" size="1.778" layer="96"/>
@@ -15858,6 +15928,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 <instance part="C1" gate="G$1" x="36.83" y="-20.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.671" y="-23.114" size="1.27" layer="95" rot="R90"/>
 <attribute name="VALUE" x="39.624" y="-23.114" size="1.27" layer="96" rot="R90"/>
+<attribute name="MFR_PN" x="36.83" y="-20.32" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="36.83" y="-20.32" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND2" gate="1" x="36.83" y="-26.67" smashed="yes">
 <attribute name="VALUE" x="34.29" y="-29.21" size="1.778" layer="96"/>
@@ -15982,6 +16054,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 </instance>
 <instance part="U5" gate="IC" x="205.74" y="-100.33" smashed="yes">
 <attribute name="NAME" x="175.26" y="-45.72" size="1.27" layer="95"/>
+<attribute name="MFR_PN" x="205.74" y="-100.33" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="205.74" y="-100.33" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="170.18" y="-77.47" smashed="yes" rot="R90">
 <attribute name="NAME" x="168.021" y="-80.264" size="1.27" layer="95" rot="R90"/>
@@ -16100,6 +16174,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 <instance part="U2" gate="G$1" x="120.65" y="-179.07" smashed="yes">
 <attribute name="NAME" x="121.285" y="-178.435" size="1.778" layer="95"/>
 <attribute name="VALUE" x="121.285" y="-199.39" size="1.778" layer="96"/>
+<attribute name="MFR_PN" x="120.65" y="-179.07" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="120.65" y="-179.07" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="110.49" y="-176.53" smashed="yes" rot="R90">
 <attribute name="NAME" x="108.331" y="-179.324" size="1.27" layer="95" rot="R90"/>
@@ -16214,6 +16290,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 </instance>
 <instance part="U7" gate="G$1" x="69.85" y="-38.1" smashed="yes">
 <attribute name="NAME" x="69.85" y="-37.465" size="1.778" layer="95"/>
+<attribute name="MFR" x="69.85" y="-38.1" size="1.27" layer="96" display="off"/>
+<attribute name="MFR_PN" x="69.85" y="-38.1" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="C22" gate="G$1" x="58.42" y="-35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="56.261" y="-38.354" size="1.27" layer="95" rot="R90"/>
@@ -17258,6 +17336,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 </instance>
 <instance part="J1" gate="G$1" x="245.11" y="-113.03" smashed="yes">
 <attribute name="NAME" x="245.11" y="-109.855" size="1.778" layer="95"/>
+<attribute name="MFR" x="245.11" y="-113.03" size="1.27" layer="96" rot="R90" display="off"/>
+<attribute name="MFR_PN" x="245.11" y="-113.03" size="1.27" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND62" gate="1" x="233.68" y="-115.57" smashed="yes" rot="R270">
 <attribute name="VALUE" x="231.14" y="-113.03" size="1.778" layer="96" rot="R270"/>
@@ -17345,6 +17425,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 </instance>
 <instance part="J3" gate="G$1" x="132.08" y="-187.96" smashed="yes">
 <attribute name="NAME" x="132.08" y="-187.325" size="1.016" layer="95"/>
+<attribute name="MFR" x="132.08" y="-187.96" size="1.27" layer="96" display="off"/>
+<attribute name="MFR_PN" x="132.08" y="-187.96" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="GND74" gate="1" x="123.19" y="-190.5" smashed="yes" rot="R270">
 <attribute name="VALUE" x="120.65" y="-187.96" size="1.778" layer="96" rot="R270"/>
@@ -17717,21 +17799,21 @@ The LED will turn off whenever the button is pressed lol.</text>
 <wire x1="48.26" y1="-93.98" x2="48.26" y2="-88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="MEAS_1V2" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="OUT1"/>
 <pinref part="JP10" gate="G$1" pin="1"/>
 <wire x1="166.37" y1="-38.1" x2="185.42" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="MEAS_1V8" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="OUT2"/>
 <wire x1="166.37" y1="-48.26" x2="185.42" y2="-48.26" width="0.1524" layer="91"/>
 <pinref part="JP11" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="MEAS_3V3" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="OUT3"/>
 <pinref part="JP12" gate="G$1" pin="1"/>
@@ -17989,7 +18071,7 @@ The LED will turn off whenever the button is pressed lol.</text>
 <pinref part="R30" gate="G$1" pin="P$2"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="MEAS_2V8" class="0">
 <segment>
 <pinref part="U9" gate="G$1" pin="OUT4"/>
 <pinref part="JP15" gate="G$1" pin="1"/>
@@ -18242,15 +18324,23 @@ The LED will turn off whenever the button is pressed lol.</text>
 </instance>
 <instance part="U14" gate="G$1" x="31.75" y="-127" smashed="yes">
 <attribute name="NAME" x="50.8" y="-125.095" size="2.54" layer="95"/>
+<attribute name="MFR_PN" x="31.75" y="-127" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="31.75" y="-127" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="U15" gate="G$1" x="105.41" y="-127" smashed="yes">
 <attribute name="NAME" x="124.46" y="-126.365" size="2.54" layer="95"/>
+<attribute name="MFR_PN" x="105.41" y="-127" size="1.27" layer="96" display="off"/>
+<attribute name="MFR" x="105.41" y="-127" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="U16" gate="G$1" x="69.85" y="-17.78" smashed="yes">
 <attribute name="NAME" x="69.85" y="-17.145" size="1.27" layer="95"/>
+<attribute name="MFR" x="69.85" y="-17.78" size="1.27" layer="96" display="off"/>
+<attribute name="MFR_PN" x="69.85" y="-17.78" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="U17" gate="G$1" x="69.85" y="-60.96" smashed="yes">
 <attribute name="NAME" x="69.85" y="-60.325" size="1.27" layer="95"/>
+<attribute name="MFR" x="69.85" y="-60.96" size="1.27" layer="96" display="off"/>
+<attribute name="MFR_PN" x="69.85" y="-60.96" size="1.27" layer="96" display="off"/>
 </instance>
 <instance part="C55" gate="G$1" x="40.64" y="-118.11" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.481" y="-120.904" size="1.27" layer="95" rot="R90"/>
@@ -18769,8 +18859,9 @@ The LED will turn off whenever the button is pressed lol.</text>
 <pinref part="U14" gate="G$1" pin="!CS"/>
 </segment>
 <segment>
-<label x="250.19" y="-120.65" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="254" y1="-120.65" x2="250.19" y2="-120.65" width="0.1524" layer="91"/>
+<label x="250.19" y="-118.11" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="-118.11" x2="250.19" y2="-118.11" width="0.1524" layer="91"/>
+<pinref part="JP41" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="MEM2_VCC1" class="0">
@@ -18813,8 +18904,9 @@ The LED will turn off whenever the button is pressed lol.</text>
 <pinref part="U14" gate="G$1" pin="SO"/>
 </segment>
 <segment>
-<label x="250.19" y="-125.73" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="254" y1="-125.73" x2="250.19" y2="-125.73" width="0.1524" layer="91"/>
+<label x="250.19" y="-120.65" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="-120.65" x2="250.19" y2="-120.65" width="0.1524" layer="91"/>
+<pinref part="JP41" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="MEM2_!WP" class="0">
@@ -18829,8 +18921,9 @@ The LED will turn off whenever the button is pressed lol.</text>
 <pinref part="U15" gate="G$1" pin="!WP"/>
 </segment>
 <segment>
-<label x="250.19" y="-128.27" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="254" y1="-128.27" x2="250.19" y2="-128.27" width="0.1524" layer="91"/>
+<label x="250.19" y="-123.19" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="-123.19" x2="250.19" y2="-123.19" width="0.1524" layer="91"/>
+<pinref part="JP41" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="MEM2_SCK" class="0">
@@ -18846,7 +18939,8 @@ The LED will turn off whenever the button is pressed lol.</text>
 </segment>
 <segment>
 <label x="250.19" y="-133.35" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="254" y1="-133.35" x2="250.19" y2="-133.35" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="-133.35" x2="250.19" y2="-133.35" width="0.1524" layer="91"/>
+<pinref part="JP41" gate="A" pin="13"/>
 </segment>
 </net>
 <net name="MEM2_COPI1" class="0">
@@ -18856,8 +18950,13 @@ The LED will turn off whenever the button is pressed lol.</text>
 <pinref part="U14" gate="G$1" pin="SI"/>
 </segment>
 <segment>
-<label x="250.19" y="-130.81" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="254" y1="-130.81" x2="250.19" y2="-130.81" width="0.1524" layer="91"/>
+<label x="241.3" y="-105.41" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="245.11" y1="-105.41" x2="241.3" y2="-105.41" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP41" gate="A" pin="7"/>
+<wire x1="256.54" y1="-125.73" x2="250.19" y2="-125.73" width="0.1524" layer="91"/>
+<label x="250.19" y="-125.73" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MEM2_PS2" class="0">
@@ -18867,8 +18966,9 @@ The LED will turn off whenever the button is pressed lol.</text>
 <pinref part="U15" gate="G$1" pin="!CS"/>
 </segment>
 <segment>
-<label x="250.19" y="-123.19" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="254" y1="-123.19" x2="250.19" y2="-123.19" width="0.1524" layer="91"/>
+<label x="250.19" y="-128.27" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="-128.27" x2="250.19" y2="-128.27" width="0.1524" layer="91"/>
+<pinref part="JP41" gate="A" pin="9"/>
 </segment>
 </net>
 <net name="MEM2_VCC2" class="0">
@@ -18983,14 +19083,6 @@ The LED will turn off whenever the button is pressed lol.</text>
 <wire x1="229.87" y1="-78.74" x2="234.95" y2="-78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="189.23" y="-46.99" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="198.12" y1="-46.99" x2="189.23" y2="-46.99" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<label x="186.69" y="-175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="193.04" y1="-175.26" x2="186.69" y2="-175.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U12" gate="G$1" pin="DATA"/>
 <wire x1="229.87" y1="-34.29" x2="234.95" y2="-34.29" width="0.1524" layer="91"/>
 <label x="234.95" y="-34.29" size="1.27" layer="95" xref="yes"/>
@@ -19003,12 +19095,16 @@ The LED will turn off whenever the button is pressed lol.</text>
 </net>
 <net name="ICE40_FLASH_SCK" class="0">
 <segment>
-<label x="189.23" y="-49.53" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="196.85" y1="-49.53" x2="189.23" y2="-49.53" width="0.1524" layer="91"/>
+<label x="190.5" y="-49.53" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="-49.53" x2="190.5" y2="-49.53" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="BLK"/>
+<wire x1="201.93" y1="-49.53" x2="198.12" y2="-49.53" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="189.23" y="-93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="198.12" y1="-93.98" x2="189.23" y2="-93.98" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="BLK"/>
+<wire x1="201.93" y1="-93.98" x2="198.12" y2="-93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="196.85" y="-120.65" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -19039,10 +19135,6 @@ The LED will turn off whenever the button is pressed lol.</text>
 </net>
 <net name="ICE40_FLASH_PS" class="0">
 <segment>
-<label x="218.44" y="-171.45" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="224.79" y1="-171.45" x2="218.44" y2="-171.45" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="JP40" gate="A" pin="1"/>
 <wire x1="203.2" y1="-118.11" x2="196.85" y2="-118.11" width="0.1524" layer="91"/>
 <label x="196.85" y="-118.11" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -19055,12 +19147,16 @@ The LED will turn off whenever the button is pressed lol.</text>
 <pinref part="JP40" gate="A" pin="9"/>
 </segment>
 <segment>
-<label x="168.91" y="-55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="173.99" y1="-55.88" x2="168.91" y2="-55.88" width="0.1524" layer="91"/>
+<label x="193.04" y="-46.99" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="-46.99" x2="193.04" y2="-46.99" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="WS"/>
+<wire x1="201.93" y1="-46.99" x2="198.12" y2="-46.99" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="189.23" y="-99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="195.58" y1="-99.06" x2="189.23" y2="-99.06" width="0.1524" layer="91"/>
+<label x="189.23" y="-91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="195.58" y1="-91.44" x2="189.23" y2="-91.44" width="0.1524" layer="91"/>
+<pinref part="U13" gate="G$1" pin="WS"/>
+<wire x1="201.93" y1="-91.44" x2="195.58" y2="-91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ICE40_OSC_12M" class="0">
@@ -19070,17 +19166,16 @@ The LED will turn off whenever the button is pressed lol.</text>
 <pinref part="JP40" gate="A" pin="23"/>
 </segment>
 </net>
-<net name="ICE40_GPIO4" class="0">
-<segment>
-<label x="250.19" y="-135.89" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="254" y1="-135.89" x2="250.19" y2="-135.89" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="MEM2_CIPO2" class="0">
 <segment>
 <wire x1="135.89" y1="-129.54" x2="138.43" y2="-129.54" width="0.1524" layer="91"/>
 <label x="138.43" y="-129.54" size="1.27" layer="95" xref="yes"/>
 <pinref part="U15" gate="G$1" pin="SO"/>
+</segment>
+<segment>
+<pinref part="JP41" gate="A" pin="11"/>
+<wire x1="256.54" y1="-130.81" x2="250.19" y2="-130.81" width="0.1524" layer="91"/>
+<label x="250.19" y="-130.81" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MEM2_COPI2" class="0">
@@ -19089,29 +19184,10 @@ The LED will turn off whenever the button is pressed lol.</text>
 <label x="97.79" y="-142.24" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="U15" gate="G$1" pin="SI"/>
 </segment>
-</net>
-<net name="N$34" class="0">
 <segment>
-<pinref part="U13" gate="G$1" pin="WS"/>
-<wire x1="201.93" y1="-91.44" x2="199.39" y2="-91.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$35" class="0">
-<segment>
-<pinref part="U13" gate="G$1" pin="BLK"/>
-<wire x1="201.93" y1="-93.98" x2="199.39" y2="-93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="U12" gate="G$1" pin="BLK"/>
-<wire x1="201.93" y1="-49.53" x2="199.39" y2="-49.53" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<pinref part="U12" gate="G$1" pin="WS"/>
-<wire x1="201.93" y1="-46.99" x2="199.39" y2="-46.99" width="0.1524" layer="91"/>
+<pinref part="JP41" gate="A" pin="15"/>
+<wire x1="256.54" y1="-135.89" x2="250.19" y2="-135.89" width="0.1524" layer="91"/>
+<label x="250.19" y="-135.89" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
