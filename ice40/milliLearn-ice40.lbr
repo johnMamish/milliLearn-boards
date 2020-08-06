@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -421,7 +421,47 @@
 <wire x1="8.8" y1="-4.5" x2="8.8" y2="-0.3" width="0.127" layer="51"/>
 <wire x1="-6.25" y1="-4.5" x2="-6.25" y2="-10.3" width="0.127" layer="51"/>
 <wire x1="6.25" y1="-4.5" x2="6.25" y2="-10.2" width="0.127" layer="51"/>
-<text x="10.4" y="-5.25" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.1" y="2.78" size="1.27" layer="25" rot="R180">&gt;NAME</text>
+<polygon width="0.127" layer="29">
+<vertex x="-6.35" y="-0.1"/>
+<vertex x="-6.35" y="-2.4"/>
+<vertex x="-7.6" y="-2.4"/>
+<vertex x="-7.6" y="-1.7"/>
+<vertex x="-9" y="-1.7"/>
+<vertex x="-9" y="-0.6"/>
+<vertex x="-8.3" y="-0.6"/>
+<vertex x="-8.3" y="-0.1"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="-6.35" y="-0.1"/>
+<vertex x="-6.35" y="-2.4"/>
+<vertex x="-7.6" y="-2.4"/>
+<vertex x="-7.6" y="-1.7"/>
+<vertex x="-9" y="-1.7"/>
+<vertex x="-9" y="-0.6"/>
+<vertex x="-8.3" y="-0.6"/>
+<vertex x="-8.3" y="-0.1"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="6.35" y="-0.1"/>
+<vertex x="6.35" y="-2.4"/>
+<vertex x="7.6" y="-2.4"/>
+<vertex x="7.6" y="-1.7"/>
+<vertex x="9" y="-1.7"/>
+<vertex x="9" y="-0.6"/>
+<vertex x="8.3" y="-0.6"/>
+<vertex x="8.3" y="-0.1"/>
+</polygon>
+<polygon width="0.127" layer="31">
+<vertex x="6.35" y="-0.1"/>
+<vertex x="6.35" y="-2.4"/>
+<vertex x="7.6" y="-2.4"/>
+<vertex x="7.6" y="-1.7"/>
+<vertex x="9" y="-1.7"/>
+<vertex x="9" y="-0.6"/>
+<vertex x="8.3" y="-0.6"/>
+<vertex x="8.3" y="-0.1"/>
+</polygon>
 </package>
 <package name="AMPHENOL_10118194-0001LF">
 <text x="-4.04428125" y="4.389140625" size="1.271209375" layer="25">&gt;NAME</text>
